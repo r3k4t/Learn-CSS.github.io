@@ -1,0 +1,28 @@
+body{
+
+    background-color:lightblue;
+    
+}
+p{
+    color:yellow;
+}
+h1{
+    
+}
+h2{
+    color:red:
+}
+#secondparagraph{
+    color:darkblue;
+    
+}
+.yellow{
+    
+    border:2px solid red;
+}
+
+/* group tag */
+
+h1,h2,p{
+
+}

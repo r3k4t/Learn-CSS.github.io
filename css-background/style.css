@@ -1,0 +1,13 @@
+body{
+    background:url("img/backgroundimage.jpg");
+    background-size:1400px 750px;
+    background-repeat: no-repeat;
+    background-attachment:scroll ;
+}
+/* All time usage.background image is download from pexel.com
+body{
+    background:url("img/backgroundimage.jpg");
+    background-size:1400px 750px;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+} */

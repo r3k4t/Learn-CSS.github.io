@@ -1,0 +1,209 @@
+body{
+    background:url("img/background12.jpg");
+    background-size:1400px 700px;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+
+}
+
+.header{
+
+}
+
+/* .header a{
+    color:white;
+    text-decoration: none;
+    font-size:24px;
+    margin:50px 25px  75px 50px;
+} */
+
+/* .header a{
+
+    border:3px solid black;
+    display:inline-block;
+    color:white;
+    text-decoration: none;
+    font-size:24px;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding:15px;
+    
+} 
+ */
+
+.header a{
+
+    border:3px solid black;
+    display:inline-block;
+    color:white;
+    text-decoration: none;
+    font-size:24px;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding:15px;
+    text-shadow: 4px 4px black;
+}
+
+
+
+
+ /* alternative padding
+.header a{
+
+    border:3px solid black;
+    display:inline-block;
+    color:white;
+    text-decoration: none;
+    font-size:24px;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding-top:25px;
+    padding-left:25px;
+} */
+
+
+/* .navbar{
+    max-width:500px;
+    border:15px solid green;
+    background-color:lightgray;
+    padding:15px;
+    margin:25px;
+    This is font family monospace
+    font-family:monospace; 
+} */
+
+/* .navbar{
+    max-width:500px;
+    border:15px solid green;
+    background-color:lightgray;
+    padding:15px;
+    margin:25px;
+    This is font family sans-serif
+    font-family:sans-serif ; 
+}*/
+
+ /* When your browse does not find lobster font-family and next it can find sans-serif font-family
+ .navbar{
+    max-width:500px;
+    border:15px solid green;
+    background-color:lightgray;
+    padding:15px;
+    margin:25px;
+    font-family:'Lobster', cursive,sans-serif; 
+}  */
+
+
+/* lobster is google fonts */
+
+.navbar{
+    max-width:500px;
+    border:15px solid green;
+    background-color:lightgray;
+    padding:15px;
+    margin:auto;
+    font-family:'Lobster', cursive; 
+}
+/* This is indent ,justify,underline
+.navbar p{
+    text-indent: 50px;
+    text-align: justify;
+    text-decoration: underline;
+} */
+ /* This is line height
+.navbar p{
+    text-indent: 50px;
+    text-align: justify;
+    line-height:1cm;
+    } */
+/* This is letter-spacing
+
+     .navbar p{
+        text-indent: 50px;
+        text-align: justify;
+        letter-spacing:2px;
+    }   */
+    /* navbar p{
+        text-indent: 50px;
+        text-align: justify;
+        letter-spacing:2px;
+        This is font family sans-serif
+        font-family: sans-serif;
+    } */
+
+
+
+    .navbar p{
+        text-indent: 50px;
+        text-align: justify;
+        
+    }
+    
+    
+
+
+
+    #innderlink{
+
+        display:block;
+        width: 150px;
+        margin:auto;
+        padding:25px;
+        text-decoration: none;
+        background-color:aqua;
+        border-radius: 10px 10px;
+
+    }
+
+
+/* Unvisited link /Before click in this hyperlink*/
+
+    #innderlink:link{
+
+        background-color:yellow;
+        color:black;
+
+    }
+    
+    /* When user visit in website  */
+
+    #innderlink:visited{
+
+        background-color:red;
+        color:white;
+
+    }
+
+
+
+    /* When user keep mouse in this hyperlink or link */
+
+    #innderlink:hover{
+
+        background-color:green;
+        color:white;
+  
+    }
+
+    /* When user click website link */
+
+    #innderlink:checked{
+
+        background-color:aqua;
+        color:white;
+
+    }
+    .listClass{
+         width:30%;
+         margin:auto;
+         background-color: lightskyblue;
+         padding: 50px;
+         margin-top: 100px;
+
+    }
+
+    .listClass ol li{
+        color:white;
+        padding:10px;
+        font-size:30px;
+        background-color: lightslategray;
+    }

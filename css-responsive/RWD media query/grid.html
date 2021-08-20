@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD-media-query</title>
+    <style>
+      *{
+          box-sizing: border-box;
+      }
+     .header{
+
+      border:2px solid red ;
+      padding: 10px;
+
+     }
+     .left{
+
+      border:2px solid red ;
+      float: left;
+      width: 30%;
+      padding: 10px;
+     }
+
+    .main{
+
+     border:2px solid red ;
+     float: right;
+     width: 70%;
+     padding: 10px;
+
+    }
+
+
+
+ /* This is media query */
+
+   @media only screen and (max-width:600px){
+       body{
+           background-color:aqua;
+       }
+   }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>This is heading</h1>
+    </div>
+    <div class="left">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eum, eveniet delectus quae quod totam quam molestias architecto explicabo beatae at corrupti dicta enim, sit quisquam laudantium? Adipisci deleniti nihil et eos at illum sed iste sunt, minima aut tempora voluptatibus obcaecati cumque dolores neque. Iusto maiores qui nostrum quibusdam.</p>
+    </div>
+    <div class="main">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed illum tempore delectus illo, itaque magni impedit quaerat, culpa exercitationem voluptates, inventore corporis pariatur perspiciatis qui magnam. Mollitia possimus cupiditate repudiandae voluptatem, cumque quae in iure quibusdam eveniet id maxime, maiores distinctio quam illo sed rerum aliquam ipsam porro placeat culpa. Sunt iure accusantium dolore suscipit dicta recusandae unde reprehenderit. Iusto eveniet laborum laboriosam assumenda, neque sed magni molestias quae perferendis incidunt facere maxime cumque nesciunt? Fugit alias esse impedit facilis illo, architecto quis error corporis porro rerum. Ducimus repellendus delectus necessitatibus fuga dolorum eveniet incidunt recusandae error veniam quisquam?</p>
+    </div>
+</body>
+</html>

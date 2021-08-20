@@ -1,0 +1,12 @@
+body{
+    background:url("img/background2.jpg");
+    background-size:1400px 750px;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+}
+h2{
+    display:inline;
+    color:white;
+    border:2px dotted black;
+
+}
